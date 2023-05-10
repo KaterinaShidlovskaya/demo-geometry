@@ -6,9 +6,14 @@ class Box {
     double volume() {
         return width * height * depth;
     }
+    void setDim(double w, double h, double d) {
+        width = w;
+        height =h;
+        depth=d;
+    }
 }
 
-class BoxDemo4 {
+class BoxDemo5 {
     public static void main(String[] args) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();
