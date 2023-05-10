@@ -8,12 +8,10 @@ class Box {
         height=10;
         depth=10;
     }
-
     double volume() {
         return width * height * depth;
     }
 }
-
 class BoxDemo6 {
     public static void main(String[] args) {
         Box mybox1 = new Box();
