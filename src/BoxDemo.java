@@ -19,9 +19,7 @@ class BoxDemo4 {
         mybox2.width = 3;
         mybox2.height = 6;
         mybox2.depth = 9;
-        vol=mybox1.volume();
-        System.out.println("Объем равен " + vol);
-        vol=mybox2.volume();
-        System.out.println("Объем равен " + vol);
+        System.out.println("Объем равен " + mybox1.volume());
+        System.out.println("Объем равен " + mybox2.volume());
     }
 }
